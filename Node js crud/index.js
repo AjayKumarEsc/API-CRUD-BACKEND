@@ -119,7 +119,7 @@ app.get('/', (req, res) => {
 
 // connection code for connecting data base
 
-mongoose.connect("mongodb+srv://Admin1:Admin1@backenddb.dlv5iey.mongodb.net/NODE-CRUDE-API?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("mongodb+srv://<username>:<password>@backenddb.dlv5iey.mongodb.net/NODE-CRUDE-API?retryWrites=true&w=majority&appName=BackendDB")
     .then(() => {
         console.log("Connected to database!");
         // server listening code 
